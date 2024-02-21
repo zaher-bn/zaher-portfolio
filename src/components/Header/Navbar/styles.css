@@ -1,0 +1,23 @@
+body {
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+  padding-right: 50px;
+  height: 50px;
+  background-color: black;
+  padding-bottom: 20px;
+}
+
+.navbarHeader {
+  color: #89cff0;
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  align-items: center; /* Center children vertically */
+  border: 2px #89cff0 solid;
+  border-radius: 60px;
+}
