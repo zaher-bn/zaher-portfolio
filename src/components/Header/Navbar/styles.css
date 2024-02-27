@@ -1,5 +1,27 @@
 body {
-  background-color: grey;
+  background-color: rgb(53, 53, 53);
+}
+.navbar-list {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  display: flex; /* Display the list items horizontally */
+}
+
+.navbar-link {
+  display: inline-block; /* Make links behave as blocks */
+  padding: 10px 75px; /* Add padding to create boxes */
+
+  margin-right: 10px; /* Add margin between the boxes */
+  text-decoration: none; /* Remove underline from links */
+  color: #000000; /* Text color */
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  background-color: #67676740; /* Background color on hover */
+  border-radius: 60px;
 }
 
 .container {
@@ -13,6 +35,7 @@ body {
 }
 
 .navbarHeader {
+  background-color: #89cff0;
   color: #89cff0;
   display: flex;
   width: 700px;
